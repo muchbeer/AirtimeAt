@@ -1,0 +1,113 @@
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 ~ (master)
+$ cd
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ Anaconda3/
+ AndroidStudioProjects/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ gistana.txt
+
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 ~ (master)
+$ cd C:
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c
+$ ls
+'$Recycle.Bin'/             pagefile.sys            swapfile.sys
+ Config.Msi/                PerfLogs/              'System Volume Information'/
+'Documents and Settings'@  'Program Files'/         Users/
+ hiberfil.sys              'Program Files (x86)'/   wamp/
+ Intel/                     ProgramData/            Windows/
+ MSOCache/                  Python38/
+ ngrok/                     Recovery/
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c
+$ cd wamp
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp
+$ ls
+alias/               lang/                           uninstall_services.bat
+apps/                license-english.txt             wampmanager.conf
+barimage.bmp         logs/                           wampmanager.exe*
+bin/                 read_after_install-english.txt  wampmanager.ini
+cgi-bin/             scripts/                        wampmanager.tpl
+images_off.bmp       tmp/                            www/
+images_on.bmp        unins000.dat
+install-english.txt  unins000.exe*
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp
+$ cd www
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www
+$ cd atproducts
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts
+$ git init
+Initialized empty Git repository in C:/wamp/www/atproducts/.git/
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git remote add origin https://github.com/muchbeer/AirtimeAt.git
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git remote -v
+origin  https://github.com/muchbeer/AirtimeAt.git (fetch)
+origin  https://github.com/muchbeer/AirtimeAt.git (push)
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git add .
+warning: LF will be replaced by CRLF in composer.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.lock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vendor/africastalking/africastalking/.gitignore.
+
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git commit -m "First commit Airtime top up"
+[master (root-commit) 6efe406] First commit Airtime top up
+ 169 files changed, 29882 insertions(+)
+ create mode 100644 airtime.php
+ create mode 100644 airtimecode.php
+ create mode 100644 airtimegraphic.php
+
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
+$ git push origin master
+Enumerating objects: 203, done.
+Counting objects: 100% (203/203), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (194/194), done.
+Writing objects: 100% (203/203), 251.85 KiB | 2.74 MiB/s, done.
+Total 203 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas: 100% (22/22), done.
+To https://github.com/muchbeer/AirtimeAt.git
+ * [new branch]      master -> master
+
+muchbeer@DESKTOP-BI3L4SA MINGW64 /c/wamp/www/atproducts (master)
