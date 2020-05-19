@@ -25,8 +25,11 @@ $recipients = $input_phoneNumber;
 // Set your message
 $message    = $input_message;
 
-// Set your shortCode or senderId
+// Set your shortCode or senderId for sandbox
 $from       = "TBCDA";
+
+//default live sender ID
+//$from       = "AFRICASTKNG";
 
 try {
     // Thats it, hit send and we'll take care of the rest
