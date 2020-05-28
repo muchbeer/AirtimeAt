@@ -11,9 +11,11 @@ $apiKey     = "ffb2a79943d047835bc6027b9ba3074bee16ef5423c284a4c48cbc64710bbe9d"
 $input_phoneNumber = $_POST["edt_phone_number"];
 $input_message = $_POST["edt_message"];
 
-// Initialize the SDKAfricasTalking// Initialize the SDK
+       
+// Initialize the SDK
 //SandBox api: ffb2a79943d047835bc6027b9ba3074bee16ef5423c284a4c48cbc64710bbe9d
-//Live api: 610a5bdd052043f57
+//Live api: 610a5bdd052043f579f34534542dd16457549235a9a659c27c861aa06ab90957
+//Live username: muchbeerx
 $AT         = new AfricasTalking($username, $apiKey);
 
 // Get the SMS service
@@ -26,10 +28,11 @@ $recipients = $input_phoneNumber;
 $message    = $input_message;
 
 // Set your shortCode or senderId for sandbox
-$from       = "TBCDA";
+$from       = "muchbeer";
 
 //default live sender ID
 //$from       = "AFRICASTKNG";
+//$from       = "TBCDA";
 
 try {
     // Thats it, hit send and we'll take care of the rest
